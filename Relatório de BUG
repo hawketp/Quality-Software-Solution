@@ -1,0 +1,24 @@
+## Bug: Sistema permite login sem senha
+
+### Ambiente
+Chrome / Windows
+
+### Passos para reproduzir
+1. Acessar tela de login
+2. Informar usuário válido
+3. Deixar senha em branco
+4. Clicar em Entrar
+
+### Resultado esperado
+Sistema deve exibir mensagem de erro.
+
+### Resultado atual
+Sistema permite login.
+
+### Severidade
+Alta
+
+
+- [x] Campo usuário aceita apenas texto
+- [x] Campo senha é obrigatório
+- [ ] Mensagem de erro clara para login inválido
